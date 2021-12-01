@@ -1,0 +1,14 @@
+{
+  "name": "sample-react-native-monorepo",
+  "private": true,
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "dependencies": {
+    "react-native": "*"
+  }
+}
