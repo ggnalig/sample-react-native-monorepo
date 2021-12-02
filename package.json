@@ -8,6 +8,12 @@
     ],
     "nohoist": []
   },
+  "scripts": {
+    "android:mobile1": "yarn workspace mobile1 android",
+    "ios:mobile1": "yarn workspace mobile1 ios",
+    "start:mobile1": "yarn workspace mobile1 start",
+    "build-android:mobile1": "yarn workspace mobile1 build-android"
+  },
   "dependencies": {
     "react-native": "*"
   }
